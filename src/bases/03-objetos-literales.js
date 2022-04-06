@@ -1,5 +1,5 @@
 
-const persona¨={
+const persona ={
  nombre :'Tony',
  apellidos: 'Stark',
  edad: 45,

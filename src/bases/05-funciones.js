@@ -12,6 +12,7 @@ const saludar3 =(nombre)=> `Hola,${nombre}`;
 
 const saludar4 =(nombre)=> `Hola mundo`;
 
+console.log(saludar('Vegeta'));
 console.log(saludar2('Vegeta'));
 console.log(saludar3('Goku'));
 console.log(saludar4());
@@ -46,13 +47,15 @@ function getUsuarioActivo(nombre) {
 }
 
 //1
-function getUsuarioActivo(nombre) => { 
-	uid: 'ABC567',
-	username: nombre
+const getUsuarioActivo1 = (nombre) => { 
+	return {
+		uid: 'ABC567',
+		username: nombre
+	}
 }
 
 //2
-function getUsuarioActivo(nombre) => 
+const getUsuarioActivo2=(nombre) => 
 ({ 
 	uid: 'ABC567',
 	username: nombre
@@ -60,3 +63,9 @@ function getUsuarioActivo(nombre) =>
 
 const usuarioActivo= getUsuarioActivo('Alberto');
 console.log(usuarioActivo);
+
+const usuarioActivo1= getUsuarioActivo1('Alberto');
+console.log(usuarioActivo1);
+
+const usuarioActivo2= getUsuarioActivo2('Alberto');
+console.log(usuarioActivo2);
