@@ -10,7 +10,7 @@ const [letras,numeros]=retornaArreglo();
 console.log(letras, numeros)
 // tarea
 //1. el primer valor del arr se llamara nombre
-//2 se llamara setNombre
+//2  el segundo se llamara setNombre
  const state= (valor)=>{
      return[valor,()=>{console.log('Hola mundo')}]
  }
