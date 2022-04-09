@@ -1,5 +1,5 @@
 //import{heroes} from './data/heroes';
-import heroes,{owners} from './data/heroes';//owners vine como un aexportacion individual
+import heroes,{owners} from '../data/heroes';//owners vine como un aexportacion individual
 
 console.log(owners);
 
