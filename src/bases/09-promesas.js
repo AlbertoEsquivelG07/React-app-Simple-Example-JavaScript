@@ -10,7 +10,7 @@ import { getHeroeById } from './bases/08-imp-exp';
  
     }, 2000);
  
-}); 
+});
  
 promesa.then((heroe) => {
     console.log('heroe',heroe)
