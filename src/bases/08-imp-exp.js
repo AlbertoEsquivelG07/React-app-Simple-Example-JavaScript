@@ -6,9 +6,9 @@ console.log(owners);
 /*const getHeroeById = (id) => {
     return heroes.find((heroe) => heroe.id === id);
 }*/
-const getHeroeById = (id) =>  heroes.find((heroe) => heroe.id === id);
-console.log(getHeroeById(2));
+export const getHeroeById = (id) =>  heroes.find((heroe) => heroe.id === id);
+//console.log(getHeroeById(2));
 //filter en lugar de find
-const getHeroesOwner =(owner)=>  heroes.filter((heroe) => heroe.owner === owner);
+export const getHeroesOwner =(owner)=>  heroes.filter((heroe) => heroe.owner === owner);
 
-console.log(getHeroesOwner('DC'));
+//console.log(getHeroesOwner('DC'));
